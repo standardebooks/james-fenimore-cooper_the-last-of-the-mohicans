@@ -41,7 +41,7 @@
 		<meta property="meta-auth" refines="#subject-7">http://www.gutenberg.org/ebooks/940</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Frontiersmen and Native Americans help transport a colonel's daughters through upper New York during the French and Indian War.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONGDESCRIPTION
@@ -49,7 +49,7 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>http://www.gutenberg.org/ebooks/940</dc:source>
-		<meta property="se:word-count">WORDCOUNT</meta>
+		<meta property="se:word-count">147084</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Last_of_the_Mohicans</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-fenimore-cooper_the-last-of-the-mohicans</meta>
 		<dc:creator id="author">James Fenimore Cooper</dc:creator>
