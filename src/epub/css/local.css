@@ -53,6 +53,7 @@ section > header{
 
 *[epub|type~="epigraph"] cite{
 	font-style: normal;
+	font-variant: small-caps;
 }
 
 *[epub|type~="epigraph"] cite i{
