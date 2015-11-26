@@ -47,7 +47,8 @@ section > header{
 	display: inline-block;
 }
 
-*[epub|type~="epigraph"] i{
+*[epub|type~="epigraph"] i,
+*[epub|type~="z3998:persona"]{
 	font-style: normal;
 }
 
