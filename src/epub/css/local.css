@@ -1,30 +1,30 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-*[epub|type~="z3998:verse"] p,
-*[epub|type~="z3998:song"] p{
+[epub|type~="z3998:verse"] p,
+[epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-*[epub|type~="z3998:verse"] p span,
-*[epub|type~="z3998:song"] p span{
+[epub|type~="z3998:verse"] p span,
+[epub|type~="z3998:song"] p span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-*[epub|type~="z3998:verse"] br,
-*[epub|type~="z3998:song"] br{
+[epub|type~="z3998:verse"] br,
+[epub|type~="z3998:song"] br{
 	display: none;
 }
 
-*[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
-*[epub|type~="z3998:verse"] + p,
-*[epub|type~="z3998:song"] + p{
+[epub|type~="z3998:verse"] + p,
+[epub|type~="z3998:song"] + p{
 	text-indent: 0;
 }
 
@@ -37,7 +37,7 @@ section > header{
 	text-align: center;
 }
 
-*[epub|type~="epigraph"]{
+[epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 	margin: 3em;
@@ -47,22 +47,22 @@ section > header{
 	display: inline-block;
 }
 
-*[epub|type~="epigraph"] i,
-*[epub|type~="z3998:persona"]{
+[epub|type~="epigraph"] i,
+[epub|type~="z3998:persona"]{
 	font-style: normal;
 }
 
-*[epub|type~="epigraph"] cite{
+[epub|type~="epigraph"] cite{
 	font-style: normal;
 	font-variant: small-caps;
 	margin-top: 1em;
 }
 
-*[epub|type~="epigraph"] cite i{
+[epub|type~="epigraph"] cite i{
 	font-style: italic;
 }
 
-*[epub|type~="z3998:persona"]{
+[epub|type~="z3998:persona"]{
 	font-variant: small-caps;
 	text-transform: lowercase;
 }
@@ -79,8 +79,8 @@ td{
 
 
 /* helpful during drafting */
-*[epub|type~="z3998:roman"],
-*[lang]:not(html),
+[epub|type~="z3998:roman"],
+[lang]:not(html),
 abbr{
 	background: #C0C0C0;
 }
