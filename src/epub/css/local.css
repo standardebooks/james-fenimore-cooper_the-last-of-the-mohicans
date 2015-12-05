@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+abbr.name{
+	white-space: nowrap;
+}
+
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
 	text-align: left;
@@ -75,12 +79,4 @@ td[epub|type~="z3998:persona"]{
 td{
 	vertical-align: top;
 	padding: .5em;
-}
-
-
-/* helpful during drafting */
-[epub|type~="z3998:roman"],
-[lang]:not(html),
-abbr{
-	background: #C0C0C0;
 }
