@@ -57,7 +57,7 @@
 		<dc:creator id="author">James Fenimore Cooper</dc:creator>
 		<meta property="file-as" refines="#author">Cooper, Fenimore James</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Fenimore_Cooper</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79059786.html</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79059786</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
@@ -65,7 +65,7 @@
 		<meta property="file-as" refines="#artist">Wyeth, N. C.</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Newell Convers Wyeth</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/N.C._Wyeth</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79054878.html</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79054878</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">John Horner</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Horner, John</meta>
