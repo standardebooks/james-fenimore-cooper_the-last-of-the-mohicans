@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/james-fenimore-cooper/the-last-of-the-mohicans</dc:identifier>
 		<dc:date>2015-12-05T03:18:27Z</dc:date>
-		<meta property="dcterms:modified">2017-07-21T00:19:18Z</meta>
-		<meta property="se:revision-number">19</meta>
+		<meta property="dcterms:modified">2017-07-27T20:31:36Z</meta>
+		<meta property="se:revision-number">20</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -45,8 +45,8 @@
 		<dc:description id="description">Frontiersmen and Native Americans help transport a colonel’s daughters through upper New York during the French and Indian War.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Last of the Mohicans&lt;/i&gt; is one of the most famous tales of pioneer American adventure.  Set during the French and Indian War, &lt;i&gt;Mohicans&lt;/i&gt; tells the tale of the journey of two daughters to meet their father, a colonel, at Fort William Henry. The road is long and dangerous, and they, along with their American and Native guides, encounter adventure at each step.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Mohicans&lt;/i&gt; is actually the second book in a pentalogy, the &lt;i&gt;Leatherstocking Tales&lt;/i&gt; pentalogy.  While the pentalogy saw success in its time, today &lt;i&gt;Mohicans&lt;/i&gt; is by far the best-known of the books.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Last of the Mohicans&lt;/i&gt; is one of the most famous tales of pioneer American adventure. Set during the French and Indian War, &lt;i&gt;Mohicans&lt;/i&gt; tells the tale of the journey of two daughters to meet their father, a colonel, at Fort William Henry. The road is long and dangerous, and they, along with their American and Native guides, encounter adventure at each step.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Mohicans&lt;/i&gt; is actually the second book in a pentalogy, the &lt;i&gt;Leatherstocking Tales&lt;/i&gt; pentalogy. While the pentalogy saw success in its time, today &lt;i&gt;Mohicans&lt;/i&gt; is by far the best-known of the books.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
