@@ -1,10 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name{
-	white-space: nowrap;
-}
-
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
 	text-align: left;
@@ -37,33 +33,8 @@ p span.i1{
 	padding-left: 2em;
 }
 
-section > header{
-	text-align: center;
-}
-
-[epub|type~="epigraph"]{
-	font-style: italic;
-	hyphens: none;
-	margin: 3em;
-	margin-top: 0;
-	text-align: left;
-	text-indent: 0;
-	display: inline-block;
-}
-
-[epub|type~="epigraph"] i,
 [epub|type~="z3998:persona"]{
 	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	font-style: normal;
-	font-variant: small-caps;
-	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 
 [epub|type~="z3998:drama"]{
@@ -109,3 +80,39 @@ section > header{
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+}
+
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
