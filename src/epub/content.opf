@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Last of the Mohicans</dc:title>
 		<meta property="file-as" refines="#title">Last of the Mohicans, The</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -43,22 +43,27 @@
 		<dc:subject id="subject-5">Frontier and pioneer life -- Fiction</dc:subject>
 		<dc:subject id="subject-6">Bumppo, Natty (Fictitious character) -- Fiction</dc:subject>
 		<dc:subject id="subject-7">Mohegan Indians -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/940</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/940</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/940</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/940</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/940</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/940</meta>
-		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/940</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85061165</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85145220</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2007100080</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh85001072</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008103514</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2007102229</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">sh2008107894</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">Frontiersmen and Native Americans help transport a colonel’s daughters through upper New York during the French and Indian War.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Last of the Mohicans&lt;/i&gt; is one of the most famous tales of pioneer American adventure. Set during the French and Indian War, &lt;i&gt;Mohicans&lt;/i&gt; tells the tale of the journey of two daughters to meet their father, a colonel, at Fort William Henry. The road is long and dangerous, and they, along with their American and Native guides, encounter adventure at each step.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Mohicans&lt;/i&gt; is actually the second book in a pentalogy, the &lt;i&gt;Leatherstocking Tales&lt;/i&gt; pentalogy. While the pentalogy saw success in its time, today &lt;i&gt;Mohicans&lt;/i&gt; is by far the best-known of the books.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/940</dc:source>
 		<meta property="se:word-count">147082</meta>
