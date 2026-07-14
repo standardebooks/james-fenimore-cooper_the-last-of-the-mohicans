@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Last of the Mohicans: A Narrative of 1757</dc:title>
 		<meta property="file-as" refines="#fulltitle">Last of the Mohicans, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">War stories</dc:subject>
 		<dc:subject id="subject-3">United States -- History -- French and Indian War, 1754-1763 -- Fiction</dc:subject>
