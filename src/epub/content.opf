@@ -63,7 +63,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Leatherstocking Tales</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:abstract>Frontiersmen and Native Americans help transport a colonel’s daughters through upper New York during the French and Indian War.</dc:abstract>
+		<meta property="schema:abstract">Frontiersmen and Native Americans help transport a colonel’s daughters through upper New York during the French and Indian War.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Last of the Mohicans&lt;/i&gt; is one of the most famous tales of pioneer American adventure. Set during the French and Indian War, &lt;i&gt;Mohicans&lt;/i&gt; tells the tale of the journey of two daughters to meet their father, a colonel, at Fort William Henry. The road is long and dangerous, and they, along with their American and Native guides, encounter adventure at each step.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Mohicans&lt;/i&gt; is actually the second book in a pentalogy, the &lt;i&gt;Leatherstocking Tales&lt;/i&gt; pentalogy. While the pentalogy saw success in its time, today &lt;i&gt;Mohicans&lt;/i&gt; is by far the best-known of the books.&lt;/p&gt;
